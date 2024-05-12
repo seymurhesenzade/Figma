@@ -9,10 +9,6 @@ import { IoLogoWhatsapp } from "react-icons/io";
 
 
 
-
-
-
-
 const Footer = () => {
   return (
     <>
@@ -21,7 +17,7 @@ const Footer = () => {
 <footer id='footertopId'>
 
 <div style={{display:'inline-block'}}><h1 style={{display:'inline-block'}}>Snobella</h1></div>
-<div style={{display:'inline-block',display:'flex',alignItems:'center'}}><input type="text"placeholder='Search all product' /><CiSearch style={{fontSize:'25px'}} /></div>
+<div style={{display:'inline-block',display:'flex',alignItems:'center'}}><input type="text"placeholder='Search all product' /><CiSearch style={{fontSize:'25px',cursor:'pointer'}} /></div>
 </footer> 
   </div>
     
@@ -35,18 +31,16 @@ selectionThe wise man therefore always
 rejects pleasures to secure other greater</p>
 <br />
 <br />
-<div style={{display:'inline-block',display:'flex',alignItems:'center'}} ><CgMail style={{fontSize:'25px',marginRight:'5px'}} /><p style={{display:'inline-block'}} >Snobella@gmail.com</p></div>
+<span style={{display:'inline-block',display:'flex',alignItems:'center'}} ><CgMail style={{fontSize:'25px',marginRight:'5px'}} /><p style={{display:'inline-block'}} >Snobella@gmail.com</p></span>
 <br />
-<div style={{display:'inline-block', display:'flex',alignItems:'center'}}><FaPhoneAlt style={{fontSize:'18px',marginRight:'5px'}} /> <p style={{display:'inline-block'}}>+748 383 23 14</p></div>
+<FaPhoneAlt style={{fontSize:'18px',marginRight:'5px'}} /> <p style={{display:'inline-block'}}>+748 383 23 14</p>
 <br />
 <br />
 
-<div style={{display:'inline-block',display:'flex',alignItems:'center'}}><PiTelegramLogoDuotone style={{marginRight:'5px'}} /><button className='btn'>Send message</button></div>
+<PiTelegramLogoDuotone style={{marginRight:'5px'}} /><button className='btn'>Send message</button>
 
+</footer> 
 
-
-
-</footer>   
 </div>
 <br />
 <br />

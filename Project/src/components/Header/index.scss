@@ -34,16 +34,17 @@
     width: 600px;
   }
 }
-#headerbottomId{
-    nav{
-        ul{
-           display: flex;
-              gap: 70px;
-              li{
-                a{
-                    color: black;
-                }
-              }
+#headerbottomId {
+  nav {
+    margin-bottom: 40px;
+    ul {
+      display: flex;
+      gap: 70px;
+      li {
+        a {
+          color: rgb(68, 68, 68);
         }
+      }
     }
+  }
 }

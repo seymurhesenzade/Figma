@@ -6,7 +6,6 @@ import { CgProfile } from "react-icons/cg";
 import { CiHeart } from "react-icons/ci";
 import { MdOutlineShoppingBag } from "react-icons/md";
 
-
 const Header = () => {
   return (
     <>
@@ -34,15 +33,15 @@ const Header = () => {
 <div className="header-middle">
 <div className="container">
 <header id="headermiddleId">
-<h1 style={{display:'inline-block', margin:'-28px'}}>ChicCharry</h1>
-<div style={{display:'flex', alignItems:'center'}}><input type="text" placeholder="Search all product"  /><CiSearch style={{fontSize:'30px'}} /></div>
+<h1 style={{display:'inline-block', margin:'-28px',cursor:'pointer'}}>ChicCharry</h1>
+<div style={{display:'flex', alignItems:'center'}}><input type="text" placeholder="Search all product"  /><CiSearch style={{fontSize:'30px', cursor:'pointer'}} /></div>
 
-<div style={{display:'inline-block',display:'flex',alignItems:'center'}} className="sign-up"><CgProfile style={{fontSize:'20px'}} /><p>Sign up</p> </div>
+<div style={{display:'inline-block',display:'flex',alignItems:'center'}} className="sign-up"><CgProfile style={{fontSize:'20px', cursor:'pointer'}} /><p >Sign up</p> </div>
 {/* --------------------------------------------------------------- */}
-<div style={{display:'inline-block',display:'flex',alignItems:'center'}}  className="wishlist"><CiHeart style={{fontSize:'20px'}} /><p>Wishlist</p></div>
+<div style={{display:'inline-block',display:'flex',alignItems:'center'}}  className="wishlist"><CiHeart style={{fontSize:'20px', cursor:'pointer'}} /><p>Wishlist</p></div>
 {/* --------------------------------------------------------------- */}
 
-<div style={{display:'inline-block',display:'flex',alignItems:'center'}}  className="basket"><MdOutlineShoppingBag style={{fontSize:'20px'}} /><p>Basket</p></div>
+<div style={{display:'inline-block',display:'flex',alignItems:'center'}}  className="basket"><MdOutlineShoppingBag style={{fontSize:'20px', cursor:'pointer'}} /><p>Basket</p></div>
 </header>
 </div>
 </div>
@@ -61,9 +60,7 @@ const Header = () => {
     </ul>
 </nav></header>
 </div>
-</div>
-
-       
+</div>     
     </>
   );
 };

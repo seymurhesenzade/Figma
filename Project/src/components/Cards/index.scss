@@ -1,0 +1,38 @@
+.text {
+    width:  400px;
+    height: 535px;
+  p {
+    display: inline-block;
+  }
+  h1 {
+    display: inline-block;
+  }
+  button {
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    background-color: teal;
+    padding: 12px;
+    width: 120px;
+  }
+  .endirim {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 60px;
+    color: red;
+  }
+}
+
+.img{
+width: 50%;
+.image{
+    width:  600px;
+    height: 535px;
+}
+}
+.textImg{
+    background-color: #ffe2e0;
+    display: flex;
+    margin-bottom: 30px;
+}

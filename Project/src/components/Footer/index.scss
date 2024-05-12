@@ -15,6 +15,7 @@
 }
 #footermiddleId {
   .btn {
+    cursor: pointer;
     padding: 10px;
     background-color: transparent;
     color: black;
@@ -22,13 +23,13 @@
     border-radius: 5px;
     transition: 0.6s;
   }
+  
 }
-#footerbottomId{
+#footerbottomId {
   margin-top: 20px;
-  .social{
+  .social {
     display: flex;
     align-items: center;
     justify-content: center;
   }
- 
 }
