@@ -1,0 +1,49 @@
+#headerId {
+  background-color: teal;
+  padding: 1rem;
+  nav {
+    ul {
+      display: flex;
+      gap: 2rem;
+      li {
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+
+  .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  p {
+    a {
+      color: white;
+    }
+  }
+}
+#headermiddleId {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  input {
+    padding: 1rem;
+    width: 600px;
+  }
+}
+#headerbottomId{
+    nav{
+        ul{
+           display: flex;
+              gap: 70px;
+              li{
+                a{
+                    color: black;
+                }
+              }
+        }
+    }
+}
